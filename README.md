@@ -54,7 +54,8 @@ This repository contains the AI Soccer simulation environment to the AI World Cu
 
 **worlds**: Contains AI World Cup simulation world files **(Files in this directory can be run using Webots Robot Simulator)**
 
-- aisoccer_1.wbt: Webots world file for robot type 1
-- aisoccer_2.wbt: Webots world file for robot type 2
+- aisoccer.wbt: Webots world file for senior robots
+
+*before two world files existed 'aisoccer_1.wbt' (junior robots) and 'aisoccer_2.wbt' (senior robots)*
 
 **config.json**: Configuration file for setting player executables, setting game duration, and setting some rules on/off for effective training. Please refer to the wiki or manual for parameter descriptions **(Participants should modify the player information in this file to tell the simulation which program to execute)**
